@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="icon" type="image/jpg" href="icon.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="icon.jpg">
+  <title>窓口のメール配信サービス</title>
+  
+  <meta />
+  
+  </head>
+  <body>
+    <input type="button" value="メールアドレスの入力" onclick="gate();">
+    <script type="text/javascript">
+        function gate() {
+           var UserInput = prompt("メールアドレスを入力してください:","");
+           location.href = 'https://script.google.com/macros/s/AKfycbwv9x0e0HTsTyZ1D4RJcZ8FtBR7V1LY67uCJUq8WaOcfZ0JwZZl/exec?pParam1=' + UserInput;
+        }
+     </script>
+  </body>
+  </html>
